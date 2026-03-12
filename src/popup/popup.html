@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>ReadSnap</h1>
+    <div id="status" class="status hidden"></div>
+    <div class="buttons">
+      <button id="btn-full-page" class="btn btn-primary">
+        <span class="icon">📄</span> Full Page
+      </button>
+      <button id="btn-select-area" class="btn btn-primary">
+        <span class="icon">✂️</span> Select Area
+      </button>
+    </div>
+    <div class="options-row">
+      <label><input type="checkbox" id="chk-include-image" checked> Include image</label>
+      <label><input type="checkbox" id="chk-ocr-enabled" checked> OCR enabled</label>
+    </div>
+    <a id="link-settings" href="#" class="settings-link">Settings</a>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
